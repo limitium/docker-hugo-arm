@@ -6,6 +6,14 @@ Hugo’s speed fosters creativity and makes building a website fun again.
 
 This Lightweight Docker Image is based on arm32v7/Alpine, and comes with rsync for Continuous Deployment.
 
+##
+
+Build
+```bash
+docker build -t handflucht/hugo-arm https://github.com/handflucht/docker-hugo-arm.git
+```
+
+
 ## Get Started
 
 Print Hugo Help:
